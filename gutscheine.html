@@ -1,0 +1,67 @@
+---
+layout: page
+title: Gutscheine
+---
+<p>
+    Gutscheine könnt ihr telefonisch (<a href="tel:0174 2434167">0174 2434167</a>),
+    direkt im Kletterwald oder mit unten stehendem Formular bestellen.
+    <br>
+    <br>
+    Wir schicken dann die Gutscheine zusammen mit der Rechnung zu.
+</p>
+<form action="https://formspree.io/uli.ehler@gmail.com" method="POST">
+    <div class="form-group">
+        <label for="email">Emailadresse *</label>
+        <input type="email" name="_replyto" class="form-control" id="email" placeholder="Deine Emailadresse" required="required">
+    </div>
+    <div class="form-group">
+        <label for="name">Name *</label>
+        <input type="text" name="name" class="form-control" id="name" placeholder="Dein Name" required="required">
+    </div>
+    <div class="form-group">
+        <label for="street">Straße *</label>
+        <input type="text" name="street" class="form-control" id="street" placeholder="Straße" required="required">
+    </div>
+    <div class="form-group">
+        <label for="zipAndCity">Postleitzahl und Ort *</label>
+        <input type="text" name="zipAndCity" class="form-control" id="zipAndCity" placeholder="Postleitzahl und Ort" required="required">
+    </div>
+    <h3>Anzahl der Gutscheine</h3>
+    <!--<br>-->
+    <!--<div class="form-group">-->
+        <!--<label class="col-sm-12 control-label">Anzahl der Gutscheine</label>-->
+    <!--</div>-->
+    <!--<br>-->
+    <div class="form-group">
+        <label for="adult">Erwachsen</label>
+        <input type="number" name="adult" class="form-control" id="adult" value="0" required="required">
+    </div>
+    <div class="form-group">
+        <label for="student">Schüler, Student, Azubi</label>
+        <input type="number" name="student" class="form-control" id="student" value="0" required="required">
+    </div>
+    <div class="form-group">
+        <label for="youth">Jugendlich (ab 12 Jahre)</label>
+        <input type="number" name="youth" class="form-control" id="youth" value="0" required="required">
+    </div>
+    <div class="form-group">
+        <label for="child9">Kind (9 bis 11 Jahre)</label>
+        <input type="number" name="child9" class="form-control" id="child9" value="0" required="required">
+    </div>
+    <div class="form-group">
+        <label for="child4">Kind (4 bis 8 Jahre)</label>
+        <input type="number" name="child4" class="form-control" id="child4" value="0" required="required">
+    </div>
+    <div class="form-group">
+        <label for="flyingfox">Flying Fox</label>
+        <input type="number" name="flyingfox" class="form-control" id="flyingfox" value="0" required="required">
+    </div>
+    <div class="form-group">
+        <label for="notice">Bemerkung</label>
+        <textarea name="notice" class="form-control" id="notice" rows="5"></textarea>
+    </div>
+    <p>
+        Angaben mit * sind Pflicht
+    </p>
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>
